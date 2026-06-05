@@ -30,7 +30,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tie
 安装插件
 
 ```ini
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_checkin.lnplugin
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_signin.lnplugin
 ```
 
 ### 青龙面板
