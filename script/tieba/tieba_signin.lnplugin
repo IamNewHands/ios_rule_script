@@ -10,7 +10,7 @@ http-request ^https?:\/\/(c\.tieba\.baidu\.com|180\.97\.\d+\.\d+)\/c\/s\/login s
 http-request ^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/channelIconConfig script-path=https://gist.githubusercontent.com/IamNewHands/16773f199030ef62c5e81d52a2c745f3/raw/afaaf48b9ad2026a9c35e2f7a766f8986b4147c7/tieba_min.js,tag=贴吧_获取Cookie2
 http-request ^https?:\/\/tiebac\.baidu\.com\/c\/u\/follow\/getFoldedMessageUserInfo script-path=https://gist.githubusercontent.com/IamNewHands/16773f199030ef62c5e81d52a2c745f3/raw/afaaf48b9ad2026a9c35e2f7a766f8986b4147c7/tieba_min.js,tag=贴吧_获取Cookie3
 http-request ^https?:\/\/tiebac\.baidu\.com\/c\/s\/getClientConfig script-path=https://gist.githubusercontent.com/IamNewHands/16773f199030ef62c5e81d52a2c745f3/raw/afaaf48b9ad2026a9c35e2f7a766f8986b4147c7/tieba_min.js,tag=贴吧_获取Cookie4
-cron "35 9 * * *" script-path=https://gist.githubusercontent.com/IamNewHands/16773f199030ef62c5e81d52a2c745f3/raw/2f6bf9ec57f771adca0b4a6b87383ff1ae20f43d/tieba_min.js,timeout=180,tag=贴吧_每日签到
+cron "35 9 * * *" script-path=https://gist.githubusercontent.com/IamNewHands/16773f199030ef62c5e81d52a2c745f3/raw/b814cbbe77b041d8acece78fe6a38c3199145227/tieba_min.js,timeout=180,tag=贴吧_每日签到
 
 [MITM]
 hostname = c.tieba.baidu.com, tiebac.baidu.com
